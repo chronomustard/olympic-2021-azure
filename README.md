@@ -29,13 +29,22 @@ Extracted data is loaded into GitHub repository for version control and collabor
 ### 3. Azure Data Factory
 The extracted xlsx data is then loaded onto Azure using HTTP in the Azure Data Factory and sinked in csv format. This step ensures seamless data transfer to Azure services.
 
-### 4. Storage
+### 4. Loading Raw Data to Azure Storage Datalake
+
+![image](https://github.com/chronomustard/olympic-2021-azure/assets/70846916/fd7350bb-beed-42cb-a32a-e34194e1d734)
+
 Raw data is stored in Azure Storage Datalake, providing a scalable and secure storage solution for large datasets.
 
 ### 5. Transformation
+
+![image](https://github.com/chronomustard/olympic-2021-azure/assets/70846916/537f72e5-9c94-4bc6-9e92-cb700789057c)
+
 Data transformation is performed using Azure Databricks, leveraging the power of Apache Spark for processing large-scale data efficiently. Various transformations such as cleaning, filtering, and aggregating are applied to prepare the data for further analysis.
 
-### 6. Loading to Azure Storage Datalake
+### 6. Loading Transformed Data to Azure Storage Datalake
+
+![image](https://github.com/chronomustard/olympic-2021-azure/assets/70846916/a4397fc5-f55d-4502-b6f8-11f5de325547)
+
 The transformed data is then loaded again to Azure Storage Datalake, making it available for downstream applications and analytics.
 
 ## Repository Structure
