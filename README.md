@@ -64,7 +64,7 @@ The transformed data is then loaded again to Azure Storage Datalake, making it a
 5. Access the transformed data stored in `data/transformed-data/` directory in your Azure Storage Datalake.
 
 ## Contributors
-- [Your Name](https://github.com/chronomustard)
+- [chronomustard](https://github.com/chronomustard)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
