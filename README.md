@@ -1,6 +1,6 @@
 # Data Pipeline Documentation
 
-This repository contains documentation for the data pipeline created to handle the 2021 Olympics data sourced from Kaggle. The pipeline includes steps for data extraction, loading, transformation, and storage using various Azure services.
+This repository contains documentation for the data ETL pipeline created to handle the 2021 Olympics data sourced from Kaggle. The pipeline includes steps for data extraction, loading, transformation, and storage using various Azure services.
 
 ## Data Source
 The data is sourced from Kaggle's database [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo).
